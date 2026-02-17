@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from './ui/card';
+import { Card } from './ui/card.jsx';
 import { Upload, Zap, Eye, Sparkles } from 'lucide-react';
 
 export const HowItWorks = () => {

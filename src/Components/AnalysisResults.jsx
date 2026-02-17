@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import { Card } from "./ui/card";
-import { Badge } from './ui/badge';
-import { Progress } from './ui/progress';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
+import { Card } from "./ui/card.jsx";
+import { Badge } from './ui/badge.jsx';
+import { Progress } from './ui/progress.jsx';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs.jsx';
 import { 
   Sun, 
   Palette, 
@@ -15,8 +15,8 @@ import {
   CloudSun,
   Activity
 } from 'lucide-react';
-import { VirtualViewfinder } from './VirtualViewfinder';
-import { useShutter } from '../Hooks/useShutter';
+import { VirtualViewfinder } from './VirtualViewfinder.jsx';
+import { useShutter } from '../Hooks/useShutter.js';
 import { AnimatePresence,motion } from 'framer-motion';
 
 export const AnalysisResults = ({ results, imageBase64 }) => {

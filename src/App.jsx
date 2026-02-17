@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
-import { Toaster } from "./Components/ui/sonner";
-import { Button } from "./Components/ui/button";
+import { Toaster } from "./Components/ui/sonner.jsx";
+import { Button } from "./Components/ui/button.jsx";
 import { RotateCcw, ArrowUp } from "lucide-react";
-import Header from "./Components/Header";
-import Hero from "./Components/Hero";
-import UploadSection from "./Components/UploadSection";
-import AnalysisResults from "./Components/AnalysisResults";
-import Features from "./Components/Features";
-import HowItWorks from "./Components/HowItWorks";
-import Footer from "./Components/Footer";
-import { AppLoader } from "./Components/Loader";
+import Header from "./Components/Header.jsx";
+import Hero from "./Components/Hero.jsx";
+import UploadSection from "./Components/UploadSection.jsx";
+import AnalysisResults from "./Components/AnalysisResults.jsx";
+import Features from "./Components/Features.jsx";
+import HowItWorks from "./Components/HowItWorks.jsx";
+import Footer from "./Components/Footer.jsx";
+import { AppLoader } from "./Components/Loader.jsx";
 
 export default function App() {
   const [analysisResults, setAnalysisResults] = useState(null);

@@ -1,11 +1,11 @@
 import React, { useState, useCallback } from "react";
 import { useDropzone } from "react-dropzone";
 import { Upload, Camera, MapPin, Clock, Sparkles } from "lucide-react";
-import { Card } from "./ui/card";
-import { Button } from "./ui/button";
-import { Input } from "./ui/input";
-import { Label } from "./ui/label";
-import { useAnalysis } from "../hooks/useAnalysis";
+import { Card } from "./ui/card.jsx";
+import { Button } from "./ui/button.jsx";
+import { Input } from "./ui/input.jsx";
+import { Label } from "./ui/label.jsx";
+import { useAnalysis } from "../Hooks/useAnalysis.js";
 
 const UploadSection = ({ onAnalysisComplete }) => {
   const [location, setLocation] = useState("");

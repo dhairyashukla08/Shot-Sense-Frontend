@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card } from './ui/card';
+import { Card } from './ui/card.jsx';
 import { Sun, Palette, Brain, Grid3x3, Clock, TrendingUp } from 'lucide-react';
 
 export const Features = () => {
